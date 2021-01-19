@@ -1,0 +1,52 @@
+
+.banner_title
+{
+    
+    font-family:  "Raleway", sans-serif;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.banner_paragraph{
+    font-family: Open Sans;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+}
+.banner_p{
+    color:rgba(0, 0, 0, 0.4);
+}
+.banner_btn{
+    background-color: #0066ff;
+    color:white;
+    width:150px;
+    height: 55px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 25px;
+}
+.banner_btn_exp{
+    background-color: white;
+    width:150px;
+    height: 55px;
+    color:#0066ff;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+.move_banner{
+    padding-top: 50px;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    animation: mymove 5s infinite;
+    
+    
+}
+
+@keyframes mymove {
+    0%   {buttom: 0px;}
+  100% {top: 200px;}
+  }
+  .move_banner ::-webkit-scrollbar{
+      display: none;
+  }

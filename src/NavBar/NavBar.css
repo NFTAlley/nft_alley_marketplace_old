@@ -1,0 +1,102 @@
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    height: 45px;
+    z-index: 10000000;
+
+    
+    
+}
+ .nav_brandName
+{
+    width: 60px;
+    height: 40px;
+    position: fixed;
+    left: 25px;
+    object-fit: contain;
+}
+.nav_move_color{
+    
+    background-color:gainsboro;
+    box-shadow:0px 2px 0px  #685555;
+}
+.nav_header{
+    
+    height: 40px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    
+}
+
+.nav_search
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color:#EC3179;
+    color:white;
+    border-radius: 25px;
+    padding: 2px;
+    margin-left: 100px;
+}
+.nav_input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    color: white;
+    flex: 1;
+    
+}
+.nav_list
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 5px;
+    
+}
+li{
+    float: left;
+    
+    padding-right: 20px;
+
+}
+li a {
+    background-color:#EC3179;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+li a:hover{
+    color: white;
+    background-color: yellow;
+    text-decoration: none;
+}
+.nav_btn{
+    border-radius: 22px;
+    width: 105px;
+    border: none;
+    padding-right: 10px;
+    height: 35px;
+    background-color:#EC3179;
+    color:white;
+}
+
+#toggle_change{
+    border-radius: 25px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background: #EC3179;
+    color: white;
+    margin-left: 20px;
+}
